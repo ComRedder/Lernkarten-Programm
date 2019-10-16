@@ -42,6 +42,10 @@
             this.buttonF1Start = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.labelF1Anzahl = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.labelF1AnzahlFehler = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.labelF1AnzahlRichtig = new System.Windows.Forms.Label();
             this.pnlSide.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.pnlFach1.SuspendLayout();
@@ -181,6 +185,10 @@
             // 
             // pnlFach1
             // 
+            this.pnlFach1.Controls.Add(this.labelF1AnzahlRichtig);
+            this.pnlFach1.Controls.Add(this.label4);
+            this.pnlFach1.Controls.Add(this.labelF1AnzahlFehler);
+            this.pnlFach1.Controls.Add(this.label3);
             this.pnlFach1.Controls.Add(this.labelF1Anzahl);
             this.pnlFach1.Controls.Add(this.label2);
             this.pnlFach1.Controls.Add(this.buttonF1Start);
@@ -215,12 +223,54 @@
             // 
             this.labelF1Anzahl.AutoSize = true;
             this.labelF1Anzahl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelF1Anzahl.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelF1Anzahl.ForeColor = System.Drawing.Color.RoyalBlue;
             this.labelF1Anzahl.Location = new System.Drawing.Point(279, 76);
             this.labelF1Anzahl.Name = "labelF1Anzahl";
             this.labelF1Anzahl.Size = new System.Drawing.Size(38, 28);
             this.labelF1Anzahl.TabIndex = 2;
             this.labelF1Anzahl.Text = "10";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(37, 160);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(187, 26);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Fehler gemacht:";
+            // 
+            // labelF1AnzahlFehler
+            // 
+            this.labelF1AnzahlFehler.AutoSize = true;
+            this.labelF1AnzahlFehler.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelF1AnzahlFehler.ForeColor = System.Drawing.Color.DarkRed;
+            this.labelF1AnzahlFehler.Location = new System.Drawing.Point(279, 158);
+            this.labelF1AnzahlFehler.Name = "labelF1AnzahlFehler";
+            this.labelF1AnzahlFehler.Size = new System.Drawing.Size(38, 28);
+            this.labelF1AnzahlFehler.TabIndex = 4;
+            this.labelF1AnzahlFehler.Text = "10";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(37, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(214, 26);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Richtige Vokabeln:";
+            // 
+            // labelF1AnzahlRichtig
+            // 
+            this.labelF1AnzahlRichtig.AutoSize = true;
+            this.labelF1AnzahlRichtig.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelF1AnzahlRichtig.ForeColor = System.Drawing.Color.ForestGreen;
+            this.labelF1AnzahlRichtig.Location = new System.Drawing.Point(279, 247);
+            this.labelF1AnzahlRichtig.Name = "labelF1AnzahlRichtig";
+            this.labelF1AnzahlRichtig.Size = new System.Drawing.Size(38, 28);
+            this.labelF1AnzahlRichtig.TabIndex = 6;
+            this.labelF1AnzahlRichtig.Text = "10";
             // 
             // View
             // 
@@ -259,6 +309,10 @@
         private System.Windows.Forms.Button buttonF1Start;
         private System.Windows.Forms.Label labelF1Anzahl;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelF1AnzahlFehler;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelF1AnzahlRichtig;
+        private System.Windows.Forms.Label label4;
     }
 }
 
