@@ -244,6 +244,7 @@
             this.buttonF1Start.TabIndex = 0;
             this.buttonF1Start.Text = "Start";
             this.buttonF1Start.UseVisualStyleBackColor = false;
+            this.buttonF1Start.Click += new System.EventHandler(this.buttonF1Start_Click);
             // 
             // label2
             // 
@@ -396,6 +397,7 @@
             this.buttonF2Start.TabIndex = 0;
             this.buttonF2Start.Text = "Start";
             this.buttonF2Start.UseVisualStyleBackColor = false;
+            this.buttonF2Start.Click += new System.EventHandler(this.buttonF2Start_Click);
             // 
             // pnlFach3
             // 
@@ -485,6 +487,7 @@
             this.buttonF3Start.TabIndex = 0;
             this.buttonF3Start.Text = "Start";
             this.buttonF3Start.UseVisualStyleBackColor = false;
+            this.buttonF3Start.Click += new System.EventHandler(this.buttonF3Start_Click);
             // 
             // pnlFach4
             // 
@@ -574,6 +577,7 @@
             this.buttonF4Start.TabIndex = 0;
             this.buttonF4Start.Text = "Start";
             this.buttonF4Start.UseVisualStyleBackColor = false;
+            this.buttonF4Start.Click += new System.EventHandler(this.buttonF4Start_Click);
             // 
             // pnlFach5
             // 
@@ -663,6 +667,7 @@
             this.buttonF5Start.TabIndex = 0;
             this.buttonF5Start.Text = "Start";
             this.buttonF5Start.UseVisualStyleBackColor = false;
+            this.buttonF5Start.Click += new System.EventHandler(this.buttonF5Start_Click);
             // 
             // View
             // 
