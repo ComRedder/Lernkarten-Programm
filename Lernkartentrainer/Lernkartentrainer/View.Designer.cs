@@ -30,118 +30,149 @@
         {
             this.sidepanel = new System.Windows.Forms.Panel();
             this.headerpanel = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.buttonUebersicht = new System.Windows.Forms.Button();
+            this.buttonFach1 = new System.Windows.Forms.Button();
+            this.buttonFach2 = new System.Windows.Forms.Button();
+            this.buttonFach3 = new System.Windows.Forms.Button();
+            this.buttonFach4 = new System.Windows.Forms.Button();
+            this.buttonFach5 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelSide = new System.Windows.Forms.Panel();
             this.sidepanel.SuspendLayout();
+            this.headerpanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // sidepanel
             // 
             this.sidepanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.sidepanel.Controls.Add(this.button7);
-            this.sidepanel.Controls.Add(this.button6);
-            this.sidepanel.Controls.Add(this.button5);
-            this.sidepanel.Controls.Add(this.button4);
-            this.sidepanel.Controls.Add(this.button3);
-            this.sidepanel.Controls.Add(this.button2);
+            this.sidepanel.Controls.Add(this.panelSide);
+            this.sidepanel.Controls.Add(this.buttonFach5);
+            this.sidepanel.Controls.Add(this.buttonFach4);
+            this.sidepanel.Controls.Add(this.buttonFach3);
+            this.sidepanel.Controls.Add(this.buttonFach2);
+            this.sidepanel.Controls.Add(this.buttonFach1);
+            this.sidepanel.Controls.Add(this.buttonUebersicht);
             this.sidepanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidepanel.Location = new System.Drawing.Point(0, 0);
             this.sidepanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.sidepanel.Name = "sidepanel";
-            this.sidepanel.Size = new System.Drawing.Size(264, 769);
+            this.sidepanel.Size = new System.Drawing.Size(289, 769);
             this.sidepanel.TabIndex = 0;
             // 
             // headerpanel
             // 
             this.headerpanel.BackColor = System.Drawing.Color.DarkRed;
+            this.headerpanel.Controls.Add(this.label1);
             this.headerpanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.headerpanel.Location = new System.Drawing.Point(264, 0);
+            this.headerpanel.Location = new System.Drawing.Point(289, 0);
             this.headerpanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.headerpanel.Name = "headerpanel";
-            this.headerpanel.Size = new System.Drawing.Size(1164, 111);
+            this.headerpanel.Size = new System.Drawing.Size(1139, 111);
             this.headerpanel.TabIndex = 1;
             // 
-            // button2
+            // buttonUebersicht
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(3, 115);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(258, 83);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Übersicht";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonUebersicht.FlatAppearance.BorderSize = 0;
+            this.buttonUebersicht.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonUebersicht.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonUebersicht.ForeColor = System.Drawing.Color.White;
+            this.buttonUebersicht.Location = new System.Drawing.Point(15, 115);
+            this.buttonUebersicht.Name = "buttonUebersicht";
+            this.buttonUebersicht.Size = new System.Drawing.Size(258, 83);
+            this.buttonUebersicht.TabIndex = 0;
+            this.buttonUebersicht.Text = "Übersicht";
+            this.buttonUebersicht.UseVisualStyleBackColor = true;
+            this.buttonUebersicht.Click += new System.EventHandler(this.buttonUebersicht_Click);
             // 
-            // button3
+            // buttonFach1
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(3, 204);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(258, 83);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "1.Fach";
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttonFach1.FlatAppearance.BorderSize = 0;
+            this.buttonFach1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFach1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFach1.ForeColor = System.Drawing.Color.White;
+            this.buttonFach1.Location = new System.Drawing.Point(15, 204);
+            this.buttonFach1.Name = "buttonFach1";
+            this.buttonFach1.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach1.TabIndex = 1;
+            this.buttonFach1.Text = "1.Fach";
+            this.buttonFach1.UseVisualStyleBackColor = true;
+            this.buttonFach1.Click += new System.EventHandler(this.buttonFach1_Click);
             // 
-            // button4
+            // buttonFach2
             // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(3, 293);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(258, 83);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "2.Fach";
-            this.button4.UseVisualStyleBackColor = true;
+            this.buttonFach2.FlatAppearance.BorderSize = 0;
+            this.buttonFach2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFach2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFach2.ForeColor = System.Drawing.Color.White;
+            this.buttonFach2.Location = new System.Drawing.Point(15, 293);
+            this.buttonFach2.Name = "buttonFach2";
+            this.buttonFach2.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach2.TabIndex = 2;
+            this.buttonFach2.Text = "2.Fach";
+            this.buttonFach2.UseVisualStyleBackColor = true;
+            this.buttonFach2.Click += new System.EventHandler(this.buttonFach2_Click);
             // 
-            // button5
+            // buttonFach3
             // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(3, 382);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(258, 83);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "3.Fach";
-            this.button5.UseVisualStyleBackColor = true;
+            this.buttonFach3.FlatAppearance.BorderSize = 0;
+            this.buttonFach3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFach3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFach3.ForeColor = System.Drawing.Color.White;
+            this.buttonFach3.Location = new System.Drawing.Point(15, 382);
+            this.buttonFach3.Name = "buttonFach3";
+            this.buttonFach3.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach3.TabIndex = 3;
+            this.buttonFach3.Text = "3.Fach";
+            this.buttonFach3.UseVisualStyleBackColor = true;
+            this.buttonFach3.Click += new System.EventHandler(this.buttonFach3_Click);
             // 
-            // button6
+            // buttonFach4
             // 
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(3, 471);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(258, 83);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "4.Fach";
-            this.button6.UseVisualStyleBackColor = true;
+            this.buttonFach4.FlatAppearance.BorderSize = 0;
+            this.buttonFach4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFach4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFach4.ForeColor = System.Drawing.Color.White;
+            this.buttonFach4.Location = new System.Drawing.Point(15, 471);
+            this.buttonFach4.Name = "buttonFach4";
+            this.buttonFach4.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach4.TabIndex = 4;
+            this.buttonFach4.Text = "4.Fach";
+            this.buttonFach4.UseVisualStyleBackColor = true;
+            this.buttonFach4.Click += new System.EventHandler(this.buttonFach4_Click);
             // 
-            // button7
+            // buttonFach5
             // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(3, 560);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(258, 83);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "5.Fach";
-            this.button7.UseVisualStyleBackColor = true;
+            this.buttonFach5.FlatAppearance.BorderSize = 0;
+            this.buttonFach5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFach5.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFach5.ForeColor = System.Drawing.Color.White;
+            this.buttonFach5.Location = new System.Drawing.Point(15, 560);
+            this.buttonFach5.Name = "buttonFach5";
+            this.buttonFach5.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach5.TabIndex = 5;
+            this.buttonFach5.Text = "5.Fach";
+            this.buttonFach5.UseVisualStyleBackColor = true;
+            this.buttonFach5.Click += new System.EventHandler(this.buttonFach5_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(309, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(514, 43);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Vokabeltrainer-Karteikasten";
+            // 
+            // panelSide
+            // 
+            this.panelSide.BackColor = System.Drawing.Color.DarkRed;
+            this.panelSide.Location = new System.Drawing.Point(0, 115);
+            this.panelSide.Name = "panelSide";
+            this.panelSide.Size = new System.Drawing.Size(10, 83);
+            this.panelSide.TabIndex = 2;
             // 
             // View
             // 
@@ -155,6 +186,8 @@
             this.Name = "View";
             this.Text = "Lernkartentrainer";
             this.sidepanel.ResumeLayout(false);
+            this.headerpanel.ResumeLayout(false);
+            this.headerpanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -163,12 +196,14 @@
 
         private System.Windows.Forms.Panel sidepanel;
         private System.Windows.Forms.Panel headerpanel;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonFach5;
+        private System.Windows.Forms.Button buttonFach4;
+        private System.Windows.Forms.Button buttonFach3;
+        private System.Windows.Forms.Button buttonFach2;
+        private System.Windows.Forms.Button buttonFach1;
+        private System.Windows.Forms.Button buttonUebersicht;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panelSide;
     }
 }
 
