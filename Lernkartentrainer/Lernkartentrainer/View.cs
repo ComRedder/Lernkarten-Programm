@@ -15,12 +15,14 @@ namespace Lernkartentrainer
         public View()
         {
             InitializeComponent();
-            panelSide.Height = buttonUebersicht.Height;
+            pnlSideAuswahl.Height = buttonUebersicht.Height;
+            pnlUebersicht.Visible = true;
         }
 
         private void buttonUebersicht_Click(object sender, EventArgs e)
         {
-            panelSide.Height = buttonUebersicht.Height;
+            pnlSideAuswahl.Height = buttonUebersicht.Height;
+            pnlUebersicht.Visible = true;
             pnlFach1.Visible = false;
             pnlFach2.Visible = false;
             pnlFach3.Visible = false;
@@ -30,7 +32,8 @@ namespace Lernkartentrainer
 
         private void buttonFach1_Click(object sender, EventArgs e)
         {
-            panelSide.Height = buttonFach1.Height;
+            pnlSideAuswahl.Height = buttonFach2.Height;
+            pnlUebersicht.Visible = false;
             pnlFach1.Visible = true;
             pnlFach2.Visible = false;
             pnlFach3.Visible = false;
@@ -40,7 +43,8 @@ namespace Lernkartentrainer
 
         private void buttonFach2_Click(object sender, EventArgs e)
         {
-            panelSide.Height = buttonFach2.Height;
+            pnlSideAuswahl.Height = buttonFach2.Height;
+            pnlUebersicht.Visible = false;
             pnlFach1.Visible = false;
             pnlFach2.Visible = true;
             pnlFach3.Visible = false;
@@ -50,7 +54,8 @@ namespace Lernkartentrainer
 
         private void buttonFach3_Click(object sender, EventArgs e)
         {
-            panelSide.Height = buttonFach3.Height;
+            pnlSideAuswahl.Height = buttonFach3.Height;
+            pnlUebersicht.Visible = false;
             pnlFach1.Visible = false;
             pnlFach2.Visible = false;
             pnlFach3.Visible = true;
@@ -60,7 +65,8 @@ namespace Lernkartentrainer
 
         private void buttonFach4_Click(object sender, EventArgs e)
         {
-            panelSide.Height = buttonFach4.Height;
+            pnlSideAuswahl.Height = buttonFach4.Height;
+            pnlUebersicht.Visible = false;
             pnlFach1.Visible = false;
             pnlFach2.Visible = false;
             pnlFach3.Visible = false;
@@ -70,7 +76,8 @@ namespace Lernkartentrainer
 
         private void buttonFach5_Click(object sender, EventArgs e)
         {
-            panelSide.Height = buttonFach5.Height;
+            pnlSideAuswahl.Height = buttonFach5.Height;
+            pnlUebersicht.Visible = false;
             pnlFach1.Visible = false;
             pnlFach2.Visible = false;
             pnlFach3.Visible = false;

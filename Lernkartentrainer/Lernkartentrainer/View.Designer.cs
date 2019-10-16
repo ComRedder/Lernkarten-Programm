@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.pnlSide = new System.Windows.Forms.Panel();
-            this.panelSide = new System.Windows.Forms.Panel();
+            this.pnlSideAuswahl = new System.Windows.Forms.Panel();
             this.buttonFach5 = new System.Windows.Forms.Button();
             this.buttonFach4 = new System.Windows.Forms.Button();
             this.buttonFach3 = new System.Windows.Forms.Button();
@@ -78,6 +78,7 @@
             this.labelF5Anzahl = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.buttonF5Start = new System.Windows.Forms.Button();
+            this.pnlUebersicht = new System.Windows.Forms.Panel();
             this.pnlSide.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.pnlFach1.SuspendLayout();
@@ -90,7 +91,7 @@
             // pnlSide
             // 
             this.pnlSide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.pnlSide.Controls.Add(this.panelSide);
+            this.pnlSide.Controls.Add(this.pnlSideAuswahl);
             this.pnlSide.Controls.Add(this.buttonFach5);
             this.pnlSide.Controls.Add(this.buttonFach4);
             this.pnlSide.Controls.Add(this.buttonFach3);
@@ -104,13 +105,13 @@
             this.pnlSide.Size = new System.Drawing.Size(289, 769);
             this.pnlSide.TabIndex = 0;
             // 
-            // panelSide
+            // pnlSideAuswahl
             // 
-            this.panelSide.BackColor = System.Drawing.Color.DarkRed;
-            this.panelSide.Location = new System.Drawing.Point(0, 115);
-            this.panelSide.Name = "panelSide";
-            this.panelSide.Size = new System.Drawing.Size(10, 83);
-            this.panelSide.TabIndex = 2;
+            this.pnlSideAuswahl.BackColor = System.Drawing.Color.DarkRed;
+            this.pnlSideAuswahl.Location = new System.Drawing.Point(0, 115);
+            this.pnlSideAuswahl.Name = "pnlSideAuswahl";
+            this.pnlSideAuswahl.Size = new System.Drawing.Size(13, 83);
+            this.pnlSideAuswahl.TabIndex = 2;
             // 
             // buttonFach5
             // 
@@ -669,12 +670,20 @@
             this.buttonF5Start.UseVisualStyleBackColor = false;
             this.buttonF5Start.Click += new System.EventHandler(this.buttonF5Start_Click);
             // 
+            // pnlUebersicht
+            // 
+            this.pnlUebersicht.Location = new System.Drawing.Point(289, 101);
+            this.pnlUebersicht.Name = "pnlUebersicht";
+            this.pnlUebersicht.Size = new System.Drawing.Size(1139, 668);
+            this.pnlUebersicht.TabIndex = 7;
+            // 
             // View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1428, 769);
+            this.Controls.Add(this.pnlUebersicht);
             this.Controls.Add(this.pnlFach5);
             this.Controls.Add(this.pnlFach4);
             this.Controls.Add(this.pnlFach3);
@@ -713,7 +722,7 @@
         private System.Windows.Forms.Button buttonFach1;
         private System.Windows.Forms.Button buttonUebersicht;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panelSide;
+        private System.Windows.Forms.Panel pnlSideAuswahl;
         private System.Windows.Forms.Panel pnlFach1;
         private System.Windows.Forms.Button buttonF1Start;
         private System.Windows.Forms.Label labelF1Anzahl;
@@ -754,6 +763,7 @@
         private System.Windows.Forms.Label labelF5Anzahl;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button buttonF5Start;
+        private System.Windows.Forms.Panel pnlUebersicht;
     }
 }
 
