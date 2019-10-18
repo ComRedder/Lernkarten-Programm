@@ -1,6 +1,6 @@
 ﻿namespace Lernkartentrainer
 {
-    partial class Lernkartentrainer
+    partial class Vokabelbereich
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.pnlSide2 = new System.Windows.Forms.Panel();
+            this.buttonClose = new System.Windows.Forms.Button();
+            this.buttonNext = new System.Windows.Forms.Button();
+            this.buttonProve = new System.Windows.Forms.Button();
             this.pnlHeader2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.buttonProve = new System.Windows.Forms.Button();
-            this.buttonNext = new System.Windows.Forms.Button();
-            this.buttonClose = new System.Windows.Forms.Button();
             this.pnlSide2.SuspendLayout();
             this.pnlHeader2.SuspendLayout();
             this.SuspendLayout();
@@ -47,55 +47,8 @@
             this.pnlSide2.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlSide2.Location = new System.Drawing.Point(0, 0);
             this.pnlSide2.Name = "pnlSide2";
-            this.pnlSide2.Size = new System.Drawing.Size(289, 773);
+            this.pnlSide2.Size = new System.Drawing.Size(289, 769);
             this.pnlSide2.TabIndex = 0;
-            // 
-            // pnlHeader2
-            // 
-            this.pnlHeader2.BackColor = System.Drawing.Color.DarkRed;
-            this.pnlHeader2.Controls.Add(this.label5);
-            this.pnlHeader2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlHeader2.Location = new System.Drawing.Point(289, 0);
-            this.pnlHeader2.Name = "pnlHeader2";
-            this.pnlHeader2.Size = new System.Drawing.Size(1061, 107);
-            this.pnlHeader2.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(267, 31);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(514, 43);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Vokabeltrainer-Karteikasten";
-            // 
-            // buttonProve
-            // 
-            this.buttonProve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonProve.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonProve.ForeColor = System.Drawing.Color.White;
-            this.buttonProve.Location = new System.Drawing.Point(12, 254);
-            this.buttonProve.Name = "buttonProve";
-            this.buttonProve.Size = new System.Drawing.Size(258, 83);
-            this.buttonProve.TabIndex = 2;
-            this.buttonProve.Text = "Überprüfen";
-            this.buttonProve.UseVisualStyleBackColor = true;
-            this.buttonProve.Click += new System.EventHandler(this.buttonProve_Click);
-            // 
-            // buttonNext
-            // 
-            this.buttonNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonNext.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonNext.ForeColor = System.Drawing.Color.White;
-            this.buttonNext.Location = new System.Drawing.Point(12, 343);
-            this.buttonNext.Name = "buttonNext";
-            this.buttonNext.Size = new System.Drawing.Size(258, 83);
-            this.buttonNext.TabIndex = 3;
-            this.buttonNext.Text = "Weiter";
-            this.buttonNext.UseVisualStyleBackColor = true;
-            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
             // 
             // buttonClose
             // 
@@ -110,9 +63,56 @@
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
+            // buttonNext
+            // 
+            this.buttonNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonNext.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonNext.ForeColor = System.Drawing.Color.White;
+            this.buttonNext.Location = new System.Drawing.Point(12, 343);
+            this.buttonNext.Name = "buttonNext";
+            this.buttonNext.Size = new System.Drawing.Size(258, 83);
+            this.buttonNext.TabIndex = 3;
+            this.buttonNext.Text = "Weiter";
+            this.buttonNext.UseVisualStyleBackColor = true;
+            this.buttonNext.Click += new System.EventHandler(this.buttonNext_Click);
+            // 
+            // buttonProve
+            // 
+            this.buttonProve.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonProve.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonProve.ForeColor = System.Drawing.Color.White;
+            this.buttonProve.Location = new System.Drawing.Point(12, 254);
+            this.buttonProve.Name = "buttonProve";
+            this.buttonProve.Size = new System.Drawing.Size(258, 83);
+            this.buttonProve.TabIndex = 2;
+            this.buttonProve.Text = "Überprüfen";
+            this.buttonProve.UseVisualStyleBackColor = true;
+            this.buttonProve.Click += new System.EventHandler(this.buttonProve_Click);
+            // 
+            // pnlHeader2
+            // 
+            this.pnlHeader2.BackColor = System.Drawing.Color.DarkRed;
+            this.pnlHeader2.Controls.Add(this.label5);
+            this.pnlHeader2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlHeader2.Location = new System.Drawing.Point(289, 0);
+            this.pnlHeader2.Name = "pnlHeader2";
+            this.pnlHeader2.Size = new System.Drawing.Size(1039, 107);
+            this.pnlHeader2.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(253, 31);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(514, 43);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Vokabeltrainer-Karteikasten";
+            // 
             // Lernkartentrainer
             // 
-            this.ClientSize = new System.Drawing.Size(1350, 773);
+            this.ClientSize = new System.Drawing.Size(1328, 769);
             this.Controls.Add(this.pnlHeader2);
             this.Controls.Add(this.pnlSide2);
             this.Name = "Lernkartentrainer";

@@ -47,11 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IView.cs" />
-    <Compile Include="Lernkartentrainer.cs">
+    <Compile Include="Vokabelbereich.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lernkartentrainer.Designer.cs">
-      <DependentUpon>Lernkartentrainer.cs</DependentUpon>
+    <Compile Include="Vokabelbereich.Designer.cs">
+      <DependentUpon>Vokabelbereich.cs</DependentUpon>
     </Compile>
     <Compile Include="View.cs">
       <SubType>Form</SubType>
@@ -70,8 +70,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Lernkartentrainer.resx">
-      <DependentUpon>Lernkartentrainer.cs</DependentUpon>
+    <EmbeddedResource Include="Vokabelbereich.resx">
+      <DependentUpon>Vokabelbereich.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View.resx">
       <DependentUpon>View.cs</DependentUpon>

@@ -12,8 +12,6 @@ namespace Lernkartentrainer
 {
     public partial class View : Form
     {
-        Lernkartentrainer openForm = new Lernkartentrainer();
-
         public View()
         {
             InitializeComponent();
@@ -89,31 +87,31 @@ namespace Lernkartentrainer
 
         private void buttonF5Start_Click(object sender, EventArgs e)
         {
-            Lernkartentrainer openForm = new Lernkartentrainer();
+            Vokabelbereich openForm = new Vokabelbereich();
             openForm.Show();
         }
 
         private void buttonF4Start_Click(object sender, EventArgs e)
         {
-            Lernkartentrainer openForm = new Lernkartentrainer();
+            Vokabelbereich openForm = new Vokabelbereich();
             openForm.Show();
         }
 
         private void buttonF3Start_Click(object sender, EventArgs e)
         {
-            Lernkartentrainer openForm = new Lernkartentrainer();
+            Vokabelbereich openForm = new Vokabelbereich();
             openForm.Show();
         }
 
         private void buttonF2Start_Click(object sender, EventArgs e)
         {
-            Lernkartentrainer openForm = new Lernkartentrainer();
+            Vokabelbereich openForm = new Vokabelbereich();
             openForm.Show();
         }
 
         private void buttonF1Start_Click(object sender, EventArgs e)
         {
-            Lernkartentrainer openForm = new Lernkartentrainer();
+            Vokabelbereich openForm = new Vokabelbereich();
             openForm.Show();
         }
     }
