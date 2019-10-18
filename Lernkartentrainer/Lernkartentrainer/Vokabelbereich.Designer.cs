@@ -138,20 +138,20 @@
             // labelWort
             // 
             this.labelWort.AutoSize = true;
-            this.labelWort.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelWort.Location = new System.Drawing.Point(434, 280);
+            this.labelWort.Font = new System.Drawing.Font("Century Gothic", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWort.Location = new System.Drawing.Point(435, 350);
             this.labelWort.Name = "labelWort";
-            this.labelWort.Size = new System.Drawing.Size(96, 38);
+            this.labelWort.Size = new System.Drawing.Size(131, 51);
             this.labelWort.TabIndex = 4;
             this.labelWort.Text = "Hallo";
             // 
             // labelLösung
             // 
             this.labelLösung.AutoSize = true;
-            this.labelLösung.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelLösung.Location = new System.Drawing.Point(947, 280);
+            this.labelLösung.Font = new System.Drawing.Font("Century Gothic", 22F, System.Drawing.FontStyle.Bold);
+            this.labelLösung.Location = new System.Drawing.Point(953, 350);
             this.labelLösung.Name = "labelLösung";
-            this.labelLösung.Size = new System.Drawing.Size(132, 38);
+            this.labelLösung.Size = new System.Drawing.Size(181, 51);
             this.labelLösung.TabIndex = 5;
             this.labelLösung.Text = "Bonjour";
             // 
