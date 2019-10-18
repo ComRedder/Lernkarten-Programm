@@ -165,6 +165,8 @@
             // 
             // Vokabelbereich
             // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1328, 769);
             this.Controls.Add(this.textBoxVokabelInput);
             this.Controls.Add(this.labelLösung);
@@ -173,7 +175,6 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.pnlHeader2);
             this.Controls.Add(this.pnlSide2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Vokabelbereich";
             this.Text = "Lernkartentrainer";
             this.pnlSide2.ResumeLayout(false);
