@@ -16,12 +16,14 @@ namespace Lernkartentrainer
         {
             InitializeComponent();
             pnlSideAuswahl.Height = buttonUebersicht.Height;
+            pnlSideAuswahl.Top = buttonUebersicht.Top;
             pnlUebersicht.Visible = true;
         }
 
         private void buttonUebersicht_Click(object sender, EventArgs e)
         {
             pnlSideAuswahl.Height = buttonUebersicht.Height;
+            pnlSideAuswahl.Top = buttonUebersicht.Top;
             pnlUebersicht.Visible = true;
             pnlFach1.Visible = false;
             pnlFach2.Visible = false;
@@ -33,6 +35,7 @@ namespace Lernkartentrainer
         private void buttonFach1_Click(object sender, EventArgs e)
         {
             pnlSideAuswahl.Height = buttonFach2.Height;
+            pnlSideAuswahl.Top = buttonFach1.Top;
             pnlUebersicht.Visible = false;
             pnlFach1.Visible = true;
             pnlFach2.Visible = false;
@@ -44,6 +47,7 @@ namespace Lernkartentrainer
         private void buttonFach2_Click(object sender, EventArgs e)
         {
             pnlSideAuswahl.Height = buttonFach2.Height;
+            pnlSideAuswahl.Top= buttonFach2.Top;
             pnlUebersicht.Visible = false;
             pnlFach1.Visible = false;
             pnlFach2.Visible = true;
@@ -55,6 +59,7 @@ namespace Lernkartentrainer
         private void buttonFach3_Click(object sender, EventArgs e)
         {
             pnlSideAuswahl.Height = buttonFach3.Height;
+            pnlSideAuswahl.Top = buttonFach3.Top;
             pnlUebersicht.Visible = false;
             pnlFach1.Visible = false;
             pnlFach2.Visible = false;
@@ -66,6 +71,7 @@ namespace Lernkartentrainer
         private void buttonFach4_Click(object sender, EventArgs e)
         {
             pnlSideAuswahl.Height = buttonFach4.Height;
+            pnlSideAuswahl.Top = buttonFach4.Top;
             pnlUebersicht.Visible = false;
             pnlFach1.Visible = false;
             pnlFach2.Visible = false;
@@ -77,6 +83,7 @@ namespace Lernkartentrainer
         private void buttonFach5_Click(object sender, EventArgs e)
         {
             pnlSideAuswahl.Height = buttonFach5.Height;
+            pnlSideAuswahl.Top = buttonFach5.Top;
             pnlUebersicht.Visible = false;
             pnlFach1.Visible = false;
             pnlFach2.Visible = false;
