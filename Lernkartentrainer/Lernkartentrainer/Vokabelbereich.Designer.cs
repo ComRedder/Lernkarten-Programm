@@ -34,6 +34,11 @@
             this.buttonProve = new System.Windows.Forms.Button();
             this.pnlHeader2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.labelWort = new System.Windows.Forms.Label();
+            this.labelLösung = new System.Windows.Forms.Label();
+            this.textBoxVokabelInput = new System.Windows.Forms.TextBox();
             this.pnlSide2.SuspendLayout();
             this.pnlHeader2.SuspendLayout();
             this.SuspendLayout();
@@ -110,17 +115,72 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Vokabeltrainer-Karteikasten";
             // 
-            // Lernkartentrainer
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Century Gothic", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(345, 254);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(83, 34);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Wort:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(824, 254);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(117, 34);
+            this.label18.TabIndex = 3;
+            this.label18.Text = "Lösung:";
+            // 
+            // labelWort
+            // 
+            this.labelWort.AutoSize = true;
+            this.labelWort.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWort.Location = new System.Drawing.Point(434, 280);
+            this.labelWort.Name = "labelWort";
+            this.labelWort.Size = new System.Drawing.Size(96, 38);
+            this.labelWort.TabIndex = 4;
+            this.labelWort.Text = "Hallo";
+            // 
+            // labelLösung
+            // 
+            this.labelLösung.AutoSize = true;
+            this.labelLösung.Font = new System.Drawing.Font("Century Gothic", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLösung.Location = new System.Drawing.Point(947, 280);
+            this.labelLösung.Name = "labelLösung";
+            this.labelLösung.Size = new System.Drawing.Size(132, 38);
+            this.labelLösung.TabIndex = 5;
+            this.labelLösung.Text = "Bonjour";
+            // 
+            // textBoxVokabelInput
+            // 
+            this.textBoxVokabelInput.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxVokabelInput.Location = new System.Drawing.Point(575, 527);
+            this.textBoxVokabelInput.Name = "textBoxVokabelInput";
+            this.textBoxVokabelInput.Size = new System.Drawing.Size(374, 34);
+            this.textBoxVokabelInput.TabIndex = 6;
+            // 
+            // Vokabelbereich
             // 
             this.ClientSize = new System.Drawing.Size(1328, 769);
+            this.Controls.Add(this.textBoxVokabelInput);
+            this.Controls.Add(this.labelLösung);
+            this.Controls.Add(this.labelWort);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.pnlHeader2);
             this.Controls.Add(this.pnlSide2);
-            this.Name = "Lernkartentrainer";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Vokabelbereich";
             this.Text = "Lernkartentrainer";
             this.pnlSide2.ResumeLayout(false);
             this.pnlHeader2.ResumeLayout(false);
             this.pnlHeader2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -183,6 +243,11 @@
         private System.Windows.Forms.Button buttonProve;
         private System.Windows.Forms.Button buttonClose;
         private System.Windows.Forms.Button buttonNext;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label labelWort;
+        private System.Windows.Forms.Label labelLösung;
+        private System.Windows.Forms.TextBox textBoxVokabelInput;
     }
 }
 
