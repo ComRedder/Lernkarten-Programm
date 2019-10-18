@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IView.cs" />
+    <Compile Include="Lernkartentrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lernkartentrainer.Designer.cs">
+      <DependentUpon>Lernkartentrainer.cs</DependentUpon>
+    </Compile>
     <Compile Include="View.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +70,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Lernkartentrainer.resx">
+      <DependentUpon>Lernkartentrainer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View.resx">
       <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
