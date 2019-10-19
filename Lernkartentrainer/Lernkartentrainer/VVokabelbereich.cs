@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lernkartentrainer
 {
-    public partial class Vokabelbereich : Form
+    public partial class VVokabelbereich : Form
     {
-        public Vokabelbereich()
+        public VVokabelbereich()
         {
             InitializeComponent();
         }

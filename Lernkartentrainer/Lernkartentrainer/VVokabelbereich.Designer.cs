@@ -1,6 +1,6 @@
 ﻿namespace Lernkartentrainer
 {
-    partial class Vokabelbereich
+    partial class VVokabelbereich
     {
         /// <summary>
         /// Erforderliche Designervariable.

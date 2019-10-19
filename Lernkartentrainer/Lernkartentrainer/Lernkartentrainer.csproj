@@ -47,17 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IView.cs" />
-    <Compile Include="Vokabelbereich.cs">
+    <Compile Include="VVokabelbereich.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vokabelbereich.Designer.cs">
-      <DependentUpon>Vokabelbereich.cs</DependentUpon>
+    <Compile Include="VVokabelbereich.Designer.cs">
+      <DependentUpon>VVokabelbereich.cs</DependentUpon>
     </Compile>
-    <Compile Include="View.cs">
+    <Compile Include="VHauptmenue.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View.Designer.cs">
-      <DependentUpon>View.cs</DependentUpon>
+    <Compile Include="VHauptmenue.Designer.cs">
+      <DependentUpon>VHauptmenue.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,11 +70,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Vokabelbereich.resx">
-      <DependentUpon>Vokabelbereich.cs</DependentUpon>
+    <EmbeddedResource Include="VVokabelbereich.resx">
+      <DependentUpon>VVokabelbereich.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View.resx">
-      <DependentUpon>View.cs</DependentUpon>
+    <EmbeddedResource Include="VHauptmenue.resx">
+      <DependentUpon>VHauptmenue.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
