@@ -12,6 +12,12 @@ namespace Lernkartentrainer
 {
     public partial class VHauptmenue : Form
     {
+        decimal anzahl;
+        decimal anzahlGesamt;
+        decimal a;
+        decimal b;
+        bool pruefWert;
+
         public VHauptmenue()
         {
             InitializeComponent();
@@ -94,32 +100,92 @@ namespace Lernkartentrainer
 
         private void buttonF5Start_Click(object sender, EventArgs e)
         {
-            VVokabelbereich openForm = new VVokabelbereich();
+            anzahl = a;
+            anzahlGesamt = b;
+            pruefWert = Ueberpruefen(a, b);
+            if (pruefWert == true)
+            {
+                buttonF5Start.Enabled = true;
+            }
+            else
+            {
+                buttonF5Start.Enabled = false;
+            }
+
+            VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }
 
         private void buttonF4Start_Click(object sender, EventArgs e)
         {
-            VVokabelbereich openForm = new VVokabelbereich();
+            anzahl = a;
+            anzahlGesamt = b;
+            pruefWert = Ueberpruefen(a, b);
+            if (pruefWert == true)
+            {
+                buttonF4Start.Enabled = true;
+            }
+            else
+            {
+                buttonF4Start.Enabled = false;
+            }
+
+            VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }
 
         private void buttonF3Start_Click(object sender, EventArgs e)
         {
-            VVokabelbereich openForm = new VVokabelbereich();
+            anzahl = a;
+            anzahlGesamt = b;
+            pruefWert = Ueberpruefen(a, b);
+            if (pruefWert == true)
+            {
+                buttonF3Start.Enabled = true;
+            }
+            else
+            {
+                buttonF3Start.Enabled = false;
+            }
+
+            VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }
 
         private void buttonF2Start_Click(object sender, EventArgs e)
         {
-            VVokabelbereich openForm = new VVokabelbereich();
+            anzahl = 20;
+            anzahlGesamt = 30;
+            pruefWert = Ueberpruefen(a, b);
+            if (pruefWert == true)
+            {
+                buttonF2Start.Enabled = true;
+            }
+            else
+            {
+                buttonF2Start.Enabled = false;
+            }
+
+            VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }
 
         private void buttonF1Start_Click(object sender, EventArgs e)
         {
-            VVokabelbereich openForm = new VVokabelbereich();
+            VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
+        }
+
+        private static bool Ueberpruefen(decimal anzahl, decimal anzahlGesamt)
+        {
+            bool pruefErgebniss = false;
+
+            decimal zwischenproof = (100 * anzahl) / anzahlGesamt;
+            if (zwischenproof >= 60)
+            {
+                pruefErgebniss = true;
+            }
+            return pruefErgebniss;
         }
     }
 }
