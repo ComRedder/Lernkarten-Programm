@@ -39,13 +39,13 @@
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlFach1 = new System.Windows.Forms.Panel();
-            this.buttonF1Start = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.labelF1Anzahl = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.labelF1AnzahlFehler = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.labelF1AnzahlRichtig = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.labelF1AnzahlFehler = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.labelF1Anzahl = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.buttonF1Start = new System.Windows.Forms.Button();
             this.pnlFach2 = new System.Windows.Forms.Panel();
             this.labelF2AnzahlRichtig = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -102,15 +102,15 @@
             this.pnlSide.Location = new System.Drawing.Point(0, 0);
             this.pnlSide.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlSide.Name = "pnlSide";
-            this.pnlSide.Size = new System.Drawing.Size(289, 769);
+            this.pnlSide.Size = new System.Drawing.Size(289, 771);
             this.pnlSide.TabIndex = 0;
             // 
             // pnlSideAuswahl
             // 
             this.pnlSideAuswahl.BackColor = System.Drawing.Color.DarkRed;
-            this.pnlSideAuswahl.Location = new System.Drawing.Point(0, 115);
+            this.pnlSideAuswahl.Location = new System.Drawing.Point(3, 109);
             this.pnlSideAuswahl.Name = "pnlSideAuswahl";
-            this.pnlSideAuswahl.Size = new System.Drawing.Size(13, 83);
+            this.pnlSideAuswahl.Size = new System.Drawing.Size(13, 80);
             this.pnlSideAuswahl.TabIndex = 2;
             // 
             // buttonFach5
@@ -119,11 +119,12 @@
             this.buttonFach5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFach5.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFach5.ForeColor = System.Drawing.Color.White;
-            this.buttonFach5.Location = new System.Drawing.Point(15, 560);
+            this.buttonFach5.Location = new System.Drawing.Point(15, 689);
             this.buttonFach5.Name = "buttonFach5";
-            this.buttonFach5.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach5.Size = new System.Drawing.Size(258, 80);
             this.buttonFach5.TabIndex = 5;
             this.buttonFach5.Text = "5.Fach";
+            this.buttonFach5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonFach5.UseVisualStyleBackColor = true;
             this.buttonFach5.Click += new System.EventHandler(this.buttonFach5_Click);
             // 
@@ -133,11 +134,12 @@
             this.buttonFach4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFach4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFach4.ForeColor = System.Drawing.Color.White;
-            this.buttonFach4.Location = new System.Drawing.Point(15, 471);
+            this.buttonFach4.Location = new System.Drawing.Point(15, 573);
             this.buttonFach4.Name = "buttonFach4";
-            this.buttonFach4.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach4.Size = new System.Drawing.Size(258, 80);
             this.buttonFach4.TabIndex = 4;
             this.buttonFach4.Text = "4.Fach";
+            this.buttonFach4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonFach4.UseVisualStyleBackColor = true;
             this.buttonFach4.Click += new System.EventHandler(this.buttonFach4_Click);
             // 
@@ -147,11 +149,12 @@
             this.buttonFach3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFach3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFach3.ForeColor = System.Drawing.Color.White;
-            this.buttonFach3.Location = new System.Drawing.Point(15, 382);
+            this.buttonFach3.Location = new System.Drawing.Point(15, 457);
             this.buttonFach3.Name = "buttonFach3";
-            this.buttonFach3.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach3.Size = new System.Drawing.Size(258, 80);
             this.buttonFach3.TabIndex = 3;
             this.buttonFach3.Text = "3.Fach";
+            this.buttonFach3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonFach3.UseVisualStyleBackColor = true;
             this.buttonFach3.Click += new System.EventHandler(this.buttonFach3_Click);
             // 
@@ -161,11 +164,12 @@
             this.buttonFach2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFach2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFach2.ForeColor = System.Drawing.Color.White;
-            this.buttonFach2.Location = new System.Drawing.Point(15, 293);
+            this.buttonFach2.Location = new System.Drawing.Point(15, 341);
             this.buttonFach2.Name = "buttonFach2";
-            this.buttonFach2.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach2.Size = new System.Drawing.Size(258, 80);
             this.buttonFach2.TabIndex = 2;
             this.buttonFach2.Text = "2.Fach";
+            this.buttonFach2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonFach2.UseVisualStyleBackColor = true;
             this.buttonFach2.Click += new System.EventHandler(this.buttonFach2_Click);
             // 
@@ -175,11 +179,12 @@
             this.buttonFach1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFach1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFach1.ForeColor = System.Drawing.Color.White;
-            this.buttonFach1.Location = new System.Drawing.Point(15, 204);
+            this.buttonFach1.Location = new System.Drawing.Point(15, 225);
             this.buttonFach1.Name = "buttonFach1";
-            this.buttonFach1.Size = new System.Drawing.Size(258, 83);
+            this.buttonFach1.Size = new System.Drawing.Size(258, 80);
             this.buttonFach1.TabIndex = 1;
             this.buttonFach1.Text = "1.Fach";
+            this.buttonFach1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.buttonFach1.UseVisualStyleBackColor = true;
             this.buttonFach1.Click += new System.EventHandler(this.buttonFach1_Click);
             // 
@@ -189,9 +194,9 @@
             this.buttonUebersicht.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonUebersicht.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonUebersicht.ForeColor = System.Drawing.Color.White;
-            this.buttonUebersicht.Location = new System.Drawing.Point(15, 115);
+            this.buttonUebersicht.Location = new System.Drawing.Point(15, 109);
             this.buttonUebersicht.Name = "buttonUebersicht";
-            this.buttonUebersicht.Size = new System.Drawing.Size(258, 83);
+            this.buttonUebersicht.Size = new System.Drawing.Size(258, 80);
             this.buttonUebersicht.TabIndex = 0;
             this.buttonUebersicht.Text = "Übersicht";
             this.buttonUebersicht.UseVisualStyleBackColor = true;
@@ -234,49 +239,26 @@
             this.pnlFach1.Size = new System.Drawing.Size(1139, 668);
             this.pnlFach1.TabIndex = 2;
             // 
-            // buttonF1Start
+            // labelF1AnzahlRichtig
             // 
-            this.buttonF1Start.BackColor = System.Drawing.Color.RoyalBlue;
-            this.buttonF1Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonF1Start.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonF1Start.Location = new System.Drawing.Point(462, 550);
-            this.buttonF1Start.Name = "buttonF1Start";
-            this.buttonF1Start.Size = new System.Drawing.Size(218, 66);
-            this.buttonF1Start.TabIndex = 0;
-            this.buttonF1Start.Text = "Start";
-            this.buttonF1Start.UseVisualStyleBackColor = false;
-            this.buttonF1Start.Click += new System.EventHandler(this.buttonF1Start_Click);
+            this.labelF1AnzahlRichtig.AutoSize = true;
+            this.labelF1AnzahlRichtig.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelF1AnzahlRichtig.ForeColor = System.Drawing.Color.ForestGreen;
+            this.labelF1AnzahlRichtig.Location = new System.Drawing.Point(279, 247);
+            this.labelF1AnzahlRichtig.Name = "labelF1AnzahlRichtig";
+            this.labelF1AnzahlRichtig.Size = new System.Drawing.Size(38, 28);
+            this.labelF1AnzahlRichtig.TabIndex = 6;
+            this.labelF1AnzahlRichtig.Text = "10";
             // 
-            // label2
+            // label4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(37, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(213, 26);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Vokabeln im Fach:";
-            // 
-            // labelF1Anzahl
-            // 
-            this.labelF1Anzahl.AutoSize = true;
-            this.labelF1Anzahl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelF1Anzahl.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.labelF1Anzahl.Location = new System.Drawing.Point(279, 76);
-            this.labelF1Anzahl.Name = "labelF1Anzahl";
-            this.labelF1Anzahl.Size = new System.Drawing.Size(38, 28);
-            this.labelF1Anzahl.TabIndex = 2;
-            this.labelF1Anzahl.Text = "10";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(37, 160);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(187, 26);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Fehler gemacht:";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(37, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(214, 26);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Richtige Vokabeln:";
             // 
             // labelF1AnzahlFehler
             // 
@@ -289,26 +271,49 @@
             this.labelF1AnzahlFehler.TabIndex = 4;
             this.labelF1AnzahlFehler.Text = "10";
             // 
-            // label4
+            // label3
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(37, 249);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(214, 26);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Richtige Vokabeln:";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(37, 160);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(187, 26);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Fehler gemacht:";
             // 
-            // labelF1AnzahlRichtig
+            // labelF1Anzahl
             // 
-            this.labelF1AnzahlRichtig.AutoSize = true;
-            this.labelF1AnzahlRichtig.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelF1AnzahlRichtig.ForeColor = System.Drawing.Color.ForestGreen;
-            this.labelF1AnzahlRichtig.Location = new System.Drawing.Point(279, 247);
-            this.labelF1AnzahlRichtig.Name = "labelF1AnzahlRichtig";
-            this.labelF1AnzahlRichtig.Size = new System.Drawing.Size(38, 28);
-            this.labelF1AnzahlRichtig.TabIndex = 6;
-            this.labelF1AnzahlRichtig.Text = "10";
+            this.labelF1Anzahl.AutoSize = true;
+            this.labelF1Anzahl.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelF1Anzahl.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.labelF1Anzahl.Location = new System.Drawing.Point(279, 76);
+            this.labelF1Anzahl.Name = "labelF1Anzahl";
+            this.labelF1Anzahl.Size = new System.Drawing.Size(38, 28);
+            this.labelF1Anzahl.TabIndex = 2;
+            this.labelF1Anzahl.Text = "10";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(37, 76);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(213, 26);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Vokabeln im Fach:";
+            // 
+            // buttonF1Start
+            // 
+            this.buttonF1Start.BackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonF1Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonF1Start.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonF1Start.Location = new System.Drawing.Point(462, 550);
+            this.buttonF1Start.Name = "buttonF1Start";
+            this.buttonF1Start.Size = new System.Drawing.Size(218, 66);
+            this.buttonF1Start.TabIndex = 0;
+            this.buttonF1Start.Text = "Start";
+            this.buttonF1Start.UseVisualStyleBackColor = false;
+            this.buttonF1Start.Click += new System.EventHandler(this.buttonF1Start_Click);
             // 
             // pnlFach2
             // 
@@ -677,12 +682,12 @@
             this.pnlUebersicht.Size = new System.Drawing.Size(1139, 668);
             this.pnlUebersicht.TabIndex = 7;
             // 
-            // View
+            // VHauptmenue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1428, 769);
+            this.ClientSize = new System.Drawing.Size(1428, 771);
             this.Controls.Add(this.pnlUebersicht);
             this.Controls.Add(this.pnlFach5);
             this.Controls.Add(this.pnlFach4);
@@ -692,7 +697,7 @@
             this.Controls.Add(this.pnlHeader);
             this.Controls.Add(this.pnlSide);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "View";
+            this.Name = "VHauptmenue";
             this.Text = "Lernkartentrainer";
             this.pnlSide.ResumeLayout(false);
             this.pnlHeader.ResumeLayout(false);
