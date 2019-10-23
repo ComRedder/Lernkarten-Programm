@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IControl.cs" />
+    <Compile Include="IModel.cs" />
     <Compile Include="IView.cs" />
     <Compile Include="VKarteikarten.cs">
       <SubType>Form</SubType>
