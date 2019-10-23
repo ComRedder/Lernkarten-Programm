@@ -102,7 +102,7 @@
             this.pnlSide.Location = new System.Drawing.Point(0, 0);
             this.pnlSide.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlSide.Name = "pnlSide";
-            this.pnlSide.Size = new System.Drawing.Size(289, 771);
+            this.pnlSide.Size = new System.Drawing.Size(289, 822);
             this.pnlSide.TabIndex = 0;
             // 
             // pnlSideAuswahl
@@ -687,7 +687,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1428, 771);
+            this.ClientSize = new System.Drawing.Size(1428, 822);
             this.Controls.Add(this.pnlUebersicht);
             this.Controls.Add(this.pnlFach5);
             this.Controls.Add(this.pnlFach4);
