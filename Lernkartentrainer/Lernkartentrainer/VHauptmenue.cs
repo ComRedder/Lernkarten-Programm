@@ -100,54 +100,18 @@ namespace Lernkartentrainer
 
         private void buttonF5Start_Click(object sender, EventArgs e)
         {
-            anzahl = a;
-            anzahlGesamt = b;
-            pruefWert = Ueberpruefen(a, b);
-            if (pruefWert == true)
-            {
-                buttonF5Start.Enabled = true;
-            }
-            else
-            {
-                buttonF5Start.Enabled = false;
-            }
-
             VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }
 
         private void buttonF4Start_Click(object sender, EventArgs e)
         {
-            anzahl = a;
-            anzahlGesamt = b;
-            pruefWert = Ueberpruefen(a, b);
-            if (pruefWert == true)
-            {
-                buttonF4Start.Enabled = true;
-            }
-            else
-            {
-                buttonF4Start.Enabled = false;
-            }
-
             VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }
 
         private void buttonF3Start_Click(object sender, EventArgs e)
         {
-            anzahl = a;
-            anzahlGesamt = b;
-            pruefWert = Ueberpruefen(a, b);
-            if (pruefWert == true)
-            {
-                buttonF3Start.Enabled = true;
-            }
-            else
-            {
-                buttonF3Start.Enabled = false;
-            }
-
             VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }
@@ -156,7 +120,7 @@ namespace Lernkartentrainer
         {
             anzahl = 20;
             anzahlGesamt = 30;
-            pruefWert = Ueberpruefen(a, b);
+            pruefWert = AnzahlGeprueft(a, b);
             if (pruefWert == true)
             {
                 buttonF2Start.Enabled = true;
@@ -176,7 +140,7 @@ namespace Lernkartentrainer
             openForm.Show();
         }
 
-        private static bool Ueberpruefen(decimal anzahl, decimal anzahlGesamt)
+        private static bool AnzahlGeprueft(decimal anzahl, decimal anzahlGesamt)
         {
             bool pruefErgebniss = false;
 
