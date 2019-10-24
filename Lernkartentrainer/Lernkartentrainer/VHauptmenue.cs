@@ -17,6 +17,7 @@ namespace Lernkartentrainer
         double a;
         double b;
         bool pruefWert;
+        //Hallo
 
         public VHauptmenue()
         {
