@@ -12,10 +12,10 @@ namespace Lernkartentrainer
 {
     public partial class VHauptmenue : Form
     {
-        decimal anzahl;
-        decimal anzahlGesamt;
-        decimal a;
-        decimal b;
+        double anzahl;
+        double anzahlGesamt;
+        double a;
+        double b;
         bool pruefWert;
 
         public VHauptmenue()
@@ -120,7 +120,7 @@ namespace Lernkartentrainer
         {
             anzahl = 20;
             anzahlGesamt = 30;
-            pruefWert = AnzahlGeprueft(a, b);
+            pruefWert = AnzahlGeprueft(anzahl, anzahlGesamt);
             if (pruefWert == true)
             {
                 buttonF2Start.Enabled = true;
@@ -140,11 +140,11 @@ namespace Lernkartentrainer
             openForm.Show();
         }
 
-        private static bool AnzahlGeprueft(decimal anzahl, decimal anzahlGesamt)
+        private static bool AnzahlGeprueft(double anzahl, double anzahlGesamt)
         {
             bool pruefErgebniss = false;
 
-            decimal zwischenproof = (100 * anzahl) / anzahlGesamt;
+            double zwischenproof = (100 * anzahl) / anzahlGesamt;
             if (zwischenproof >= 60)
             {
                 pruefErgebniss = true;
