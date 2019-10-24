@@ -17,7 +17,6 @@ namespace Lernkartentrainer
         double a;
         double b;
         bool pruefWert;
-        //Hallo
 
         public VHauptmenue()
         {
@@ -25,6 +24,12 @@ namespace Lernkartentrainer
             pnlSideAuswahl.Height = buttonUebersicht.Height;
             pnlSideAuswahl.Top = buttonUebersicht.Top;
             pnlUebersicht.Visible = true;
+        }
+
+        private void buttonEditor_Click(object sender, EventArgs e)
+        {
+            VEdit openForm = new VEdit();
+            openForm.Show();
         }
 
         private void buttonUebersicht_Click(object sender, EventArgs e)
@@ -151,12 +156,6 @@ namespace Lernkartentrainer
                 pruefErgebniss = true;
             }
             return pruefErgebniss;
-        }
-
-        private void buttonEditor_Click(object sender, EventArgs e)
-        {
-            VEdit openForm = new VEdit();
-            openForm.Show();
         }
     }
 }

@@ -688,9 +688,10 @@
             // buttonEditor
             // 
             this.buttonEditor.BackColor = System.Drawing.Color.DarkRed;
+            this.buttonEditor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEditor.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEditor.ForeColor = System.Drawing.Color.White;
-            this.buttonEditor.Location = new System.Drawing.Point(136, 124);
+            this.buttonEditor.Location = new System.Drawing.Point(132, 120);
             this.buttonEditor.Name = "buttonEditor";
             this.buttonEditor.Size = new System.Drawing.Size(260, 100);
             this.buttonEditor.TabIndex = 0;
