@@ -13,7 +13,7 @@ namespace Lernkartentrainer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VHauptmenue());
+            Application.Run(new VEditor());
         }
     }
 }

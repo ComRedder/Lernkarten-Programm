@@ -49,6 +49,12 @@
     <Compile Include="IControl.cs" />
     <Compile Include="IModel.cs" />
     <Compile Include="IView.cs" />
+    <Compile Include="VEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VEdit.Designer.cs">
+      <DependentUpon>VEdit.cs</DependentUpon>
+    </Compile>
     <Compile Include="VKarteikarten.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="VEdit.resx">
+      <DependentUpon>VEdit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VKarteikarten.resx">
       <DependentUpon>VKarteikarten.cs</DependentUpon>
     </EmbeddedResource>

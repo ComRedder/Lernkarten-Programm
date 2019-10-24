@@ -79,7 +79,6 @@
             this.label19 = new System.Windows.Forms.Label();
             this.buttonF5Start = new System.Windows.Forms.Button();
             this.pnlUebersicht = new System.Windows.Forms.Panel();
-            this.buttonEditor = new System.Windows.Forms.Button();
             this.pnlSide.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.pnlFach1.SuspendLayout();
@@ -87,7 +86,6 @@
             this.pnlFach3.SuspendLayout();
             this.pnlFach4.SuspendLayout();
             this.pnlFach5.SuspendLayout();
-            this.pnlUebersicht.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlSide
@@ -679,24 +677,10 @@
             // 
             // pnlUebersicht
             // 
-            this.pnlUebersicht.Controls.Add(this.buttonEditor);
             this.pnlUebersicht.Location = new System.Drawing.Point(289, 101);
             this.pnlUebersicht.Name = "pnlUebersicht";
             this.pnlUebersicht.Size = new System.Drawing.Size(1139, 668);
             this.pnlUebersicht.TabIndex = 7;
-            // 
-            // buttonEditor
-            // 
-            this.buttonEditor.BackColor = System.Drawing.Color.DarkRed;
-            this.buttonEditor.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEditor.ForeColor = System.Drawing.Color.White;
-            this.buttonEditor.Location = new System.Drawing.Point(136, 124);
-            this.buttonEditor.Name = "buttonEditor";
-            this.buttonEditor.Size = new System.Drawing.Size(260, 100);
-            this.buttonEditor.TabIndex = 0;
-            this.buttonEditor.Text = "Vokabel-Editor";
-            this.buttonEditor.UseVisualStyleBackColor = false;
-            this.buttonEditor.Click += new System.EventHandler(this.buttonEditor_Click);
             // 
             // VHauptmenue
             // 
@@ -728,7 +712,6 @@
             this.pnlFach4.PerformLayout();
             this.pnlFach5.ResumeLayout(false);
             this.pnlFach5.PerformLayout();
-            this.pnlUebersicht.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -786,7 +769,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Button buttonF5Start;
         private System.Windows.Forms.Panel pnlUebersicht;
-        private System.Windows.Forms.Button buttonEditor;
     }
 }
 

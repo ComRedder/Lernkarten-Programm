@@ -12,12 +12,6 @@ namespace Lernkartentrainer
 {
     public partial class VEditor : Form
     {
-        double anzahl;
-        double anzahlGesamt;
-        double a;
-        double b;
-        bool pruefWert;
-        //Hallo
 
         public VEditor()
         {
@@ -151,12 +145,6 @@ namespace Lernkartentrainer
                 pruefErgebniss = true;
             }
             return pruefErgebniss;
-        }
-
-        private void buttonEditor_Click(object sender, EventArgs e)
-        {
-            VEdit openForm = new VEdit();
-            openForm.Show();
         }
     }
 }
