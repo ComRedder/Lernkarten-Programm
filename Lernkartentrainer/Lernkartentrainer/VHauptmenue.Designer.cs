@@ -1,6 +1,6 @@
 ﻿namespace Lernkartentrainer
 {
-    partial class VEditor
+    partial class VHauptmenue
     {
         /// <summary>
         /// Erforderliche Designervariable.

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Lernkartentrainer
 {
-    public partial class VEditor : Form
+    public partial class VHauptmenue : Form
     {
         double anzahl;
         double anzahlGesamt;
@@ -19,7 +19,7 @@ namespace Lernkartentrainer
         bool pruefWert;
         //Hallo
 
-        public VEditor()
+        public VHauptmenue()
         {
             InitializeComponent();
             pnlSideAuswahl.Height = buttonUebersicht.Height;
