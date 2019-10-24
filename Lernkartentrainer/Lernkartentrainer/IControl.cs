@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lernkartentrainer
 {
-    class Controller
+    interface IControl
     {
     }
 }
