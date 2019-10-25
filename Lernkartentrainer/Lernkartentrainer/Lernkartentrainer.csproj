@@ -57,6 +57,12 @@
     <Compile Include="VEdit.Designer.cs">
       <DependentUpon>VEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="VEditorXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VEditorXML.Designer.cs">
+      <DependentUpon>VEditorXML.cs</DependentUpon>
+    </Compile>
     <Compile Include="VKarteikarten.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </Compile>
     <EmbeddedResource Include="VEdit.resx">
       <DependentUpon>VEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VEditorXML.resx">
+      <DependentUpon>VEditorXML.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VKarteikarten.resx">
       <DependentUpon>VKarteikarten.cs</DependentUpon>

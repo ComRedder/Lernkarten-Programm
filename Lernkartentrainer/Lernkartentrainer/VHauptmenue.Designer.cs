@@ -80,6 +80,7 @@
             this.buttonF5Start = new System.Windows.Forms.Button();
             this.pnlUebersicht = new System.Windows.Forms.Panel();
             this.buttonEditor = new System.Windows.Forms.Button();
+            this.buttonEditorXML = new System.Windows.Forms.Button();
             this.pnlSide.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.pnlFach1.SuspendLayout();
@@ -679,6 +680,7 @@
             // 
             // pnlUebersicht
             // 
+            this.pnlUebersicht.Controls.Add(this.buttonEditorXML);
             this.pnlUebersicht.Controls.Add(this.buttonEditor);
             this.pnlUebersicht.Location = new System.Drawing.Point(289, 101);
             this.pnlUebersicht.Name = "pnlUebersicht";
@@ -698,6 +700,20 @@
             this.buttonEditor.Text = "Vokabel-Editor";
             this.buttonEditor.UseVisualStyleBackColor = false;
             this.buttonEditor.Click += new System.EventHandler(this.buttonEditor_Click);
+            // 
+            // buttonEditorXML
+            // 
+            this.buttonEditorXML.BackColor = System.Drawing.Color.DarkRed;
+            this.buttonEditorXML.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEditorXML.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEditorXML.ForeColor = System.Drawing.Color.White;
+            this.buttonEditorXML.Location = new System.Drawing.Point(704, 123);
+            this.buttonEditorXML.Name = "buttonEditorXML";
+            this.buttonEditorXML.Size = new System.Drawing.Size(260, 100);
+            this.buttonEditorXML.TabIndex = 1;
+            this.buttonEditorXML.Text = "Vokabel-Editor";
+            this.buttonEditorXML.UseVisualStyleBackColor = false;
+            this.buttonEditorXML.Click += new System.EventHandler(this.buttonEditorXML_Click);
             // 
             // VHauptmenue
             // 
@@ -788,6 +804,7 @@
         private System.Windows.Forms.Button buttonF5Start;
         private System.Windows.Forms.Panel pnlUebersicht;
         private System.Windows.Forms.Button buttonEditor;
+        private System.Windows.Forms.Button buttonEditorXML;
     }
 }
 

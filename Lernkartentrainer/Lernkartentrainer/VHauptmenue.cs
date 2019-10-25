@@ -32,6 +32,12 @@ namespace Lernkartentrainer
             openForm.Show();
         }
 
+        private void buttonEditorXML_Click(object sender, EventArgs e)
+        {
+            VEditorXML openForm = new VEditorXML();
+            openForm.Show();
+        }
+
         private void buttonUebersicht_Click(object sender, EventArgs e)
         {
             pnlSideAuswahl.Height = buttonUebersicht.Height;

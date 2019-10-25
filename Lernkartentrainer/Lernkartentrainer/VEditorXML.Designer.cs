@@ -1,6 +1,6 @@
 ﻿namespace Lernkartentrainer
 {
-    partial class VEdit
+    partial class VEditorXML
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pnlSide2 = new System.Windows.Forms.Panel();
             this.buttonClose = new System.Windows.Forms.Button();
+            this.pnlSide2 = new System.Windows.Forms.Panel();
             this.buttonOpen = new System.Windows.Forms.Button();
             this.buttonSpeichern = new System.Windows.Forms.Button();
             this.pnlHeader2 = new System.Windows.Forms.Panel();
@@ -42,18 +42,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEditor)).BeginInit();
             this.SuspendLayout();
             // 
-            // pnlSide2
-            // 
-            this.pnlSide2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
-            this.pnlSide2.Controls.Add(this.buttonClose);
-            this.pnlSide2.Controls.Add(this.buttonOpen);
-            this.pnlSide2.Controls.Add(this.buttonSpeichern);
-            this.pnlSide2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlSide2.Location = new System.Drawing.Point(0, 107);
-            this.pnlSide2.Name = "pnlSide2";
-            this.pnlSide2.Size = new System.Drawing.Size(289, 662);
-            this.pnlSide2.TabIndex = 7;
-            // 
             // buttonClose
             // 
             this.buttonClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -65,7 +53,18 @@
             this.buttonClose.TabIndex = 4;
             this.buttonClose.Text = "Schließen";
             this.buttonClose.UseVisualStyleBackColor = true;
-            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
+            // 
+            // pnlSide2
+            // 
+            this.pnlSide2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.pnlSide2.Controls.Add(this.buttonClose);
+            this.pnlSide2.Controls.Add(this.buttonOpen);
+            this.pnlSide2.Controls.Add(this.buttonSpeichern);
+            this.pnlSide2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlSide2.Location = new System.Drawing.Point(0, 107);
+            this.pnlSide2.Name = "pnlSide2";
+            this.pnlSide2.Size = new System.Drawing.Size(289, 662);
+            this.pnlSide2.TabIndex = 10;
             // 
             // buttonOpen
             // 
@@ -78,7 +77,6 @@
             this.buttonOpen.TabIndex = 3;
             this.buttonOpen.Text = "Öffnen";
             this.buttonOpen.UseVisualStyleBackColor = true;
-            this.buttonOpen.Click += new System.EventHandler(this.buttonOpen_Click);
             // 
             // buttonSpeichern
             // 
@@ -91,7 +89,6 @@
             this.buttonSpeichern.TabIndex = 2;
             this.buttonSpeichern.Text = "Speichern";
             this.buttonSpeichern.UseVisualStyleBackColor = true;
-            this.buttonSpeichern.Click += new System.EventHandler(this.buttonSpeichern_Click);
             // 
             // pnlHeader2
             // 
@@ -101,7 +98,7 @@
             this.pnlHeader2.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader2.Name = "pnlHeader2";
             this.pnlHeader2.Size = new System.Drawing.Size(1328, 107);
-            this.pnlHeader2.TabIndex = 8;
+            this.pnlHeader2.TabIndex = 11;
             // 
             // label5
             // 
@@ -122,22 +119,22 @@
             this.dataGridViewEditor.RowHeadersWidth = 62;
             this.dataGridViewEditor.RowTemplate.Height = 28;
             this.dataGridViewEditor.Size = new System.Drawing.Size(1021, 644);
-            this.dataGridViewEditor.TabIndex = 9;
+            this.dataGridViewEditor.TabIndex = 12;
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // VEdit
+            // VEditorXML
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1328, 769);
-            this.Controls.Add(this.dataGridViewEditor);
             this.Controls.Add(this.pnlSide2);
             this.Controls.Add(this.pnlHeader2);
-            this.Name = "VEdit";
-            this.Text = "Editor";
+            this.Controls.Add(this.dataGridViewEditor);
+            this.Name = "VEditorXML";
+            this.Text = "VEditorXML";
             this.pnlSide2.ResumeLayout(false);
             this.pnlHeader2.ResumeLayout(false);
             this.pnlHeader2.PerformLayout();
@@ -148,8 +145,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel pnlSide2;
         private System.Windows.Forms.Button buttonClose;
+        private System.Windows.Forms.Panel pnlSide2;
         private System.Windows.Forms.Button buttonOpen;
         private System.Windows.Forms.Button buttonSpeichern;
         private System.Windows.Forms.Panel pnlHeader2;
