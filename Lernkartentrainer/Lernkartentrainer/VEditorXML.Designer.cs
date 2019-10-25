@@ -34,12 +34,12 @@
             this.buttonSpeichern = new System.Windows.Forms.Button();
             this.pnlHeader2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.dataGridViewEditor = new System.Windows.Forms.DataGridView();
+            this.dataGridViewEditorXML = new System.Windows.Forms.DataGridView();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.pnlSide2.SuspendLayout();
             this.pnlHeader2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEditor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEditorXML)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonClose
@@ -53,6 +53,7 @@
             this.buttonClose.TabIndex = 4;
             this.buttonClose.Text = "Schließen";
             this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // pnlSide2
             // 
@@ -77,6 +78,7 @@
             this.buttonOpen.TabIndex = 3;
             this.buttonOpen.Text = "Öffnen";
             this.buttonOpen.UseVisualStyleBackColor = true;
+            this.buttonOpen.Click += new System.EventHandler(this.buttonOpen_Click);
             // 
             // buttonSpeichern
             // 
@@ -89,6 +91,7 @@
             this.buttonSpeichern.TabIndex = 2;
             this.buttonSpeichern.Text = "Speichern";
             this.buttonSpeichern.UseVisualStyleBackColor = true;
+            this.buttonSpeichern.Click += new System.EventHandler(this.buttonSpeichern_Click);
             // 
             // pnlHeader2
             // 
@@ -111,15 +114,15 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Vokabeltrainer-Karteikasten";
             // 
-            // dataGridViewEditor
+            // dataGridViewEditorXML
             // 
-            this.dataGridViewEditor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewEditor.Location = new System.Drawing.Point(295, 113);
-            this.dataGridViewEditor.Name = "dataGridViewEditor";
-            this.dataGridViewEditor.RowHeadersWidth = 62;
-            this.dataGridViewEditor.RowTemplate.Height = 28;
-            this.dataGridViewEditor.Size = new System.Drawing.Size(1021, 644);
-            this.dataGridViewEditor.TabIndex = 12;
+            this.dataGridViewEditorXML.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewEditorXML.Location = new System.Drawing.Point(295, 113);
+            this.dataGridViewEditorXML.Name = "dataGridViewEditorXML";
+            this.dataGridViewEditorXML.RowHeadersWidth = 62;
+            this.dataGridViewEditorXML.RowTemplate.Height = 28;
+            this.dataGridViewEditorXML.Size = new System.Drawing.Size(1021, 644);
+            this.dataGridViewEditorXML.TabIndex = 12;
             // 
             // openFileDialog1
             // 
@@ -132,13 +135,13 @@
             this.ClientSize = new System.Drawing.Size(1328, 769);
             this.Controls.Add(this.pnlSide2);
             this.Controls.Add(this.pnlHeader2);
-            this.Controls.Add(this.dataGridViewEditor);
+            this.Controls.Add(this.dataGridViewEditorXML);
             this.Name = "VEditorXML";
             this.Text = "VEditorXML";
             this.pnlSide2.ResumeLayout(false);
             this.pnlHeader2.ResumeLayout(false);
             this.pnlHeader2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEditor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEditorXML)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -151,7 +154,7 @@
         private System.Windows.Forms.Button buttonSpeichern;
         private System.Windows.Forms.Panel pnlHeader2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView dataGridViewEditor;
+        private System.Windows.Forms.DataGridView dataGridViewEditorXML;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
