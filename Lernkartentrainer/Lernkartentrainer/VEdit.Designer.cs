@@ -137,7 +137,7 @@
             this.Controls.Add(this.pnlSide2);
             this.Controls.Add(this.pnlHeader2);
             this.Name = "VEdit";
-            this.Text = "Editor";
+            this.Text = "VSC-Editor";
             this.pnlSide2.ResumeLayout(false);
             this.pnlHeader2.ResumeLayout(false);
             this.pnlHeader2.PerformLayout();

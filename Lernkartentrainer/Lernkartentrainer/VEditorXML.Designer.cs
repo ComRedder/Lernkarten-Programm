@@ -137,7 +137,7 @@
             this.Controls.Add(this.pnlHeader2);
             this.Controls.Add(this.dataGridViewEditorXML);
             this.Name = "VEditorXML";
-            this.Text = "VEditorXML";
+            this.Text = "XML-Editor";
             this.pnlSide2.ResumeLayout(false);
             this.pnlHeader2.ResumeLayout(false);
             this.pnlHeader2.PerformLayout();
