@@ -11,9 +11,9 @@ using System.IO;
 
 namespace Lernkartentrainer
 {
-    public partial class VEdit : Form
+    public partial class VEditorVSC : Form
     {
-        public VEdit()
+        public VEditorVSC()
         {
             InitializeComponent();
         }

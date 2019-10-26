@@ -1,6 +1,6 @@
 ﻿namespace Lernkartentrainer
 {
-    partial class VEdit
+    partial class VEditorVSC
     {
         /// <summary>
         /// Required designer variable.

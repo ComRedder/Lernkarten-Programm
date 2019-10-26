@@ -28,7 +28,7 @@ namespace Lernkartentrainer
 
         private void buttonEditor_Click(object sender, EventArgs e)
         {
-            VEdit openForm = new VEdit();
+            VEditorVSC openForm = new VEditorVSC();
             openForm.Show();
         }
 
@@ -112,18 +112,53 @@ namespace Lernkartentrainer
 
         private void buttonF5Start_Click(object sender, EventArgs e)
         {
+            anzahl = 20;
+            anzahlGesamt = 30;
+            pruefWert = AnzahlGeprueft(anzahl, anzahlGesamt);
+            if (pruefWert == true)
+            {
+                buttonF5Start.Enabled = true;
+            }
+            else
+            {
+                buttonF5Start.Enabled = false;
+            }
             VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }
 
         private void buttonF4Start_Click(object sender, EventArgs e)
         {
+            anzahl = 20;
+            anzahlGesamt = 30;
+            pruefWert = AnzahlGeprueft(anzahl, anzahlGesamt);
+            if (pruefWert == true)
+            {
+                buttonF4Start.Enabled = true;
+            }
+            else
+            {
+                buttonF4Start.Enabled = false;
+            }
+
             VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }
 
         private void buttonF3Start_Click(object sender, EventArgs e)
         {
+            anzahl = 20;
+            anzahlGesamt = 30;
+            pruefWert = AnzahlGeprueft(anzahl, anzahlGesamt);
+            if (pruefWert == true)
+            {
+                buttonF3Start.Enabled = true;
+            }
+            else
+            {
+                buttonF3Start.Enabled = false;
+            }
+
             VKarteikarten openForm = new VKarteikarten();
             openForm.Show();
         }

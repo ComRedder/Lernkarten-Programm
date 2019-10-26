@@ -51,11 +51,11 @@
     <Compile Include="IModel.cs" />
     <Compile Include="IView.cs" />
     <Compile Include="Model.cs" />
-    <Compile Include="VEdit.cs">
+    <Compile Include="VEditorVSC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VEdit.Designer.cs">
-      <DependentUpon>VEdit.cs</DependentUpon>
+    <Compile Include="VEditorVSC.Designer.cs">
+      <DependentUpon>VEditorVSC.cs</DependentUpon>
     </Compile>
     <Compile Include="VEditorXML.cs">
       <SubType>Form</SubType>
@@ -87,8 +87,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="VEdit.resx">
-      <DependentUpon>VEdit.cs</DependentUpon>
+    <EmbeddedResource Include="VEditorVSC.resx">
+      <DependentUpon>VEditorVSC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VEditorXML.resx">
       <DependentUpon>VEditorXML.cs</DependentUpon>
@@ -114,6 +114,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-book-and-pencil-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-löschen-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-häkchen-64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

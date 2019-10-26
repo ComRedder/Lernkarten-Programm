@@ -79,8 +79,8 @@
             this.label19 = new System.Windows.Forms.Label();
             this.buttonF5Start = new System.Windows.Forms.Button();
             this.pnlUebersicht = new System.Windows.Forms.Panel();
-            this.buttonEditor = new System.Windows.Forms.Button();
             this.buttonEditorXML = new System.Windows.Forms.Button();
+            this.buttonEditor = new System.Windows.Forms.Button();
             this.pnlSide.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.pnlFach1.SuspendLayout();
@@ -687,20 +687,6 @@
             this.pnlUebersicht.Size = new System.Drawing.Size(1139, 668);
             this.pnlUebersicht.TabIndex = 7;
             // 
-            // buttonEditor
-            // 
-            this.buttonEditor.BackColor = System.Drawing.Color.DarkRed;
-            this.buttonEditor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonEditor.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonEditor.ForeColor = System.Drawing.Color.White;
-            this.buttonEditor.Location = new System.Drawing.Point(132, 120);
-            this.buttonEditor.Name = "buttonEditor";
-            this.buttonEditor.Size = new System.Drawing.Size(260, 100);
-            this.buttonEditor.TabIndex = 0;
-            this.buttonEditor.Text = "Vokabel-Editor";
-            this.buttonEditor.UseVisualStyleBackColor = false;
-            this.buttonEditor.Click += new System.EventHandler(this.buttonEditor_Click);
-            // 
             // buttonEditorXML
             // 
             this.buttonEditorXML.BackColor = System.Drawing.Color.DarkRed;
@@ -711,9 +697,23 @@
             this.buttonEditorXML.Name = "buttonEditorXML";
             this.buttonEditorXML.Size = new System.Drawing.Size(260, 100);
             this.buttonEditorXML.TabIndex = 1;
-            this.buttonEditorXML.Text = "Vokabel-Editor";
+            this.buttonEditorXML.Text = "Vokabel-Editor XML";
             this.buttonEditorXML.UseVisualStyleBackColor = false;
             this.buttonEditorXML.Click += new System.EventHandler(this.buttonEditorXML_Click);
+            // 
+            // buttonEditor
+            // 
+            this.buttonEditor.BackColor = System.Drawing.Color.DarkRed;
+            this.buttonEditor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEditor.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEditor.ForeColor = System.Drawing.Color.White;
+            this.buttonEditor.Location = new System.Drawing.Point(132, 120);
+            this.buttonEditor.Name = "buttonEditor";
+            this.buttonEditor.Size = new System.Drawing.Size(260, 100);
+            this.buttonEditor.TabIndex = 0;
+            this.buttonEditor.Text = "Vokabel-Editor VSC";
+            this.buttonEditor.UseVisualStyleBackColor = false;
+            this.buttonEditor.Click += new System.EventHandler(this.buttonEditor_Click);
             // 
             // VHauptmenue
             // 

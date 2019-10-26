@@ -19,6 +19,8 @@ namespace Lernkartentrainer
             InitializeComponent();
             buttonNext.Enabled = false;
             buttonProve.Enabled = false;
+            pnlWrongAnswer.Visible = false;
+            pnlRightAnswer.Visible = false;
 
             if (textBoxVokabelInput.Text != null)
             {
@@ -29,9 +31,15 @@ namespace Lernkartentrainer
         private void buttonProve_Click(object sender, EventArgs e)
         {
             approved = Prove(textBoxVokabelInput.Text);
-            if (approved == true || approved == false)
+            if (approved == true)
             {
                 buttonNext.Enabled = true;
+                pnlRightAnswer.Visible = true;
+            }
+            else
+            {
+                buttonNext.Enabled = true;
+                pnlWrongAnswer.Visible = true;
             }
         }
 

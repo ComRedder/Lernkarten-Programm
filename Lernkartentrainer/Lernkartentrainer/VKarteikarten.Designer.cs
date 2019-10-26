@@ -39,8 +39,18 @@
             this.labelWort = new System.Windows.Forms.Label();
             this.labelLösung = new System.Windows.Forms.Label();
             this.textBoxVokabelInput = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.pnlWrongAnswer = new System.Windows.Forms.Panel();
+            this.pnlRightAnswer = new System.Windows.Forms.Panel();
+            this.labelRight = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxWrong = new System.Windows.Forms.PictureBox();
             this.pnlSide2.SuspendLayout();
             this.pnlHeader2.SuspendLayout();
+            this.pnlWrongAnswer.SuspendLayout();
+            this.pnlRightAnswer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWrong)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlSide2
@@ -158,16 +168,78 @@
             // textBoxVokabelInput
             // 
             this.textBoxVokabelInput.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxVokabelInput.Location = new System.Drawing.Point(575, 527);
+            this.textBoxVokabelInput.Location = new System.Drawing.Point(575, 597);
             this.textBoxVokabelInput.Name = "textBoxVokabelInput";
             this.textBoxVokabelInput.Size = new System.Drawing.Size(374, 34);
             this.textBoxVokabelInput.TabIndex = 6;
             // 
-            // Vokabelbereich
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label20.Location = new System.Drawing.Point(73, 32);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(379, 34);
+            this.label20.TabIndex = 7;
+            this.label20.Text = "Die Antwort ist leider falsch";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pnlWrongAnswer
+            // 
+            this.pnlWrongAnswer.Controls.Add(this.pictureBoxWrong);
+            this.pnlWrongAnswer.Controls.Add(this.label20);
+            this.pnlWrongAnswer.Location = new System.Drawing.Point(530, 491);
+            this.pnlWrongAnswer.Name = "pnlWrongAnswer";
+            this.pnlWrongAnswer.Size = new System.Drawing.Size(478, 100);
+            this.pnlWrongAnswer.TabIndex = 9;
+            // 
+            // pnlRightAnswer
+            // 
+            this.pnlRightAnswer.Controls.Add(this.pictureBox1);
+            this.pnlRightAnswer.Controls.Add(this.labelRight);
+            this.pnlRightAnswer.Location = new System.Drawing.Point(530, 491);
+            this.pnlRightAnswer.Name = "pnlRightAnswer";
+            this.pnlRightAnswer.Size = new System.Drawing.Size(478, 100);
+            this.pnlRightAnswer.TabIndex = 10;
+            // 
+            // labelRight
+            // 
+            this.labelRight.AutoSize = true;
+            this.labelRight.Font = new System.Drawing.Font("Century Gothic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRight.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.labelRight.Location = new System.Drawing.Point(73, 32);
+            this.labelRight.Name = "labelRight";
+            this.labelRight.Size = new System.Drawing.Size(298, 34);
+            this.labelRight.TabIndex = 7;
+            this.labelRight.Text = "Die Antwort ist richtig";
+            this.labelRight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Lernkartentrainer.Properties.Resources.icons8_häkchen_64;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 64);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBoxWrong
+            // 
+            this.pictureBoxWrong.Image = global::Lernkartentrainer.Properties.Resources.icons8_löschen_64;
+            this.pictureBoxWrong.Location = new System.Drawing.Point(3, 14);
+            this.pictureBoxWrong.Name = "pictureBoxWrong";
+            this.pictureBoxWrong.Size = new System.Drawing.Size(64, 64);
+            this.pictureBoxWrong.TabIndex = 8;
+            this.pictureBoxWrong.TabStop = false;
+            // 
+            // VKarteikarten
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1328, 769);
+            this.Controls.Add(this.pnlRightAnswer);
+            this.Controls.Add(this.pnlWrongAnswer);
             this.Controls.Add(this.textBoxVokabelInput);
             this.Controls.Add(this.labelLösung);
             this.Controls.Add(this.labelWort);
@@ -175,11 +247,17 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.pnlHeader2);
             this.Controls.Add(this.pnlSide2);
-            this.Name = "Vokabelbereich";
+            this.Name = "VKarteikarten";
             this.Text = "Lernkartentrainer";
             this.pnlSide2.ResumeLayout(false);
             this.pnlHeader2.ResumeLayout(false);
             this.pnlHeader2.PerformLayout();
+            this.pnlWrongAnswer.ResumeLayout(false);
+            this.pnlWrongAnswer.PerformLayout();
+            this.pnlRightAnswer.ResumeLayout(false);
+            this.pnlRightAnswer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxWrong)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -249,6 +327,12 @@
         private System.Windows.Forms.Label labelWort;
         private System.Windows.Forms.Label labelLösung;
         private System.Windows.Forms.TextBox textBoxVokabelInput;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.PictureBox pictureBoxWrong;
+        private System.Windows.Forms.Panel pnlWrongAnswer;
+        private System.Windows.Forms.Panel pnlRightAnswer;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label labelRight;
     }
 }
 
