@@ -8,5 +8,6 @@ namespace Lernkartentrainer
 {
     interface IView
     {
+        int LoginBool { get; set; }
     }
 }

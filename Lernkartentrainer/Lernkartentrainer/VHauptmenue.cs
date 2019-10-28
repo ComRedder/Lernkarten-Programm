@@ -14,9 +14,9 @@ namespace Lernkartentrainer
     {
         double anzahl;
         double anzahlGesamt;
-        double a;
-        double b;
         bool pruefWert;
+        //anmeldung = new VLogin();
+        //IView anmeldung;
 
         public VHauptmenue()
         {
@@ -24,6 +24,17 @@ namespace Lernkartentrainer
             pnlSideAuswahl.Height = buttonUebersicht.Height;
             pnlSideAuswahl.Top = buttonUebersicht.Top;
             pnlUebersicht.Visible = true;
+            //if (anmeldung.LoginBool == 2)
+            //{
+            //    buttonUebersicht.Enabled = false;
+            //    buttonFach1.Enabled = false;
+            //    buttonFach2.Enabled = false;
+            //    buttonFach3.Enabled = false;
+            //    buttonFach4.Enabled = false;
+            //    buttonFach5.Enabled = false;
+            //    buttonEditorXML.Enabled = false;
+            //    buttonEditor.Enabled = false;
+            //}
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)

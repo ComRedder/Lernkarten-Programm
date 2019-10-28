@@ -10,16 +10,18 @@ using System.Windows.Forms;
 
 namespace Lernkartentrainer
 {
-    public partial class VLogin : Form
+    public partial class VLogin : Form , IView
     {
+        private int loginProve = 2;
         public VLogin()
         {
             InitializeComponent();
+            textBoxPassword.PasswordChar = '*';
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            Login();
+            loginProve = Login();
         }
 
         private void buttonClose_Click(object sender, EventArgs e)
@@ -27,22 +29,34 @@ namespace Lernkartentrainer
             this.Close();
         }
 
-        private bool Login()
+        private int Login()
         {
             string username = "Schueler";
             string password = "hhbk";
-            bool loginProve = false;
 
             if (textBoxUsername.Text != username || textBoxPassword.Text != password)
             {
-                Console.WriteLine("Passwort oder Benutzername ist falsch!");
+                MessageBox.Show("Passwort oder Benutzername ist falsch!");
             }
             else
             {
-                loginProve = true;
+                MessageBox.Show("Login erfolgt!");
+                loginProve = 1;
+                this.Close();
             }
 
             return loginProve;
+        }
+
+        int IView.LoginBool
+        {
+            get { return loginProve; }
+            set { loginProve = value; }
+        }
+
+        public VLogin(int loginbool)
+        {
+            (this as IView).LoginBool = loginbool;
         }
     }
 }
