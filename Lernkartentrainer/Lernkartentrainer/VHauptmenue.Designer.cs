@@ -81,6 +81,7 @@
             this.pnlUebersicht = new System.Windows.Forms.Panel();
             this.buttonEditorXML = new System.Windows.Forms.Button();
             this.buttonEditor = new System.Windows.Forms.Button();
+            this.buttonLogin = new System.Windows.Forms.Button();
             this.pnlSide.SuspendLayout();
             this.pnlHeader.SuspendLayout();
             this.pnlFach1.SuspendLayout();
@@ -94,6 +95,7 @@
             // pnlSide
             // 
             this.pnlSide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.pnlSide.Controls.Add(this.buttonLogin);
             this.pnlSide.Controls.Add(this.pnlSideAuswahl);
             this.pnlSide.Controls.Add(this.buttonFach5);
             this.pnlSide.Controls.Add(this.buttonFach4);
@@ -715,6 +717,19 @@
             this.buttonEditor.UseVisualStyleBackColor = false;
             this.buttonEditor.Click += new System.EventHandler(this.buttonEditor_Click);
             // 
+            // buttonLogin
+            // 
+            this.buttonLogin.BackColor = System.Drawing.Color.RoyalBlue;
+            this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonLogin.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLogin.Location = new System.Drawing.Point(35, 28);
+            this.buttonLogin.Name = "buttonLogin";
+            this.buttonLogin.Size = new System.Drawing.Size(218, 66);
+            this.buttonLogin.TabIndex = 8;
+            this.buttonLogin.Text = "Login";
+            this.buttonLogin.UseVisualStyleBackColor = false;
+            this.buttonLogin.Click += new System.EventHandler(this.buttonLogin_Click);
+            // 
             // VHauptmenue
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -805,6 +820,7 @@
         private System.Windows.Forms.Panel pnlUebersicht;
         private System.Windows.Forms.Button buttonEditor;
         private System.Windows.Forms.Button buttonEditorXML;
+        private System.Windows.Forms.Button buttonLogin;
     }
 }
 

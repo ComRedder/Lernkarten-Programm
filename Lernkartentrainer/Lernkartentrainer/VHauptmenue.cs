@@ -26,6 +26,12 @@ namespace Lernkartentrainer
             pnlUebersicht.Visible = true;
         }
 
+        private void buttonLogin_Click(object sender, EventArgs e)
+        {
+            VLogin openForm = new VLogin();
+            openForm.Show();
+        }
+
         private void buttonEditor_Click(object sender, EventArgs e)
         {
             VEditorVSC openForm = new VEditorVSC();
