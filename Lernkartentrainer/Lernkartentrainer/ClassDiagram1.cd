@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lernkartentrainer.Controller">
+    <Position X="0.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lernkartentrainer.Model">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lernkartentrainer.Program">
+    <Position X="6" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lernkartentrainer.VEditorVSC">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBABAAQBAGAAABACAACAQAACAEAAwAAAAAAAIAABCAA=</HashCode>
+      <FileName>VEditorVSC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lernkartentrainer.VEditorXML">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAABAAQAACAAABACAACgQAACAEAAwgAAAAAAIAABCAA=</HashCode>
+      <FileName>VEditorXML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lernkartentrainer.VHauptmenue">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>/YWLABUQGGImAFYAhADJAAAaOgJgFAACWAIAIAQBAyA=</HashCode>
+      <FileName>VHauptmenue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Lernkartentrainer.VLogin">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAARAACAAABAAAACAAAASAAAAgAAAAQAQAAIBCAA=</HashCode>
+      <FileName>VLogin.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Lernkartentrainer.VKarteikarte">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgoAAAwEACAIABAAEADAAAECAAAAgAAAAAIAACFBCBA=</HashCode>
+      <FileName>VKarteikarte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Lernkartentrainer.IControl">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IControl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lernkartentrainer.IModel">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Lernkartentrainer.IView">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>IView.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

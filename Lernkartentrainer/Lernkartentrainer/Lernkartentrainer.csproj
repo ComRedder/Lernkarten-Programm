@@ -63,11 +63,11 @@
     <Compile Include="VEditorXML.Designer.cs">
       <DependentUpon>VEditorXML.cs</DependentUpon>
     </Compile>
-    <Compile Include="VKarteikarten.cs">
+    <Compile Include="VKarteikarte.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VKarteikarten.Designer.cs">
-      <DependentUpon>VKarteikarten.cs</DependentUpon>
+    <Compile Include="VKarteikarte.Designer.cs">
+      <DependentUpon>VKarteikarte.cs</DependentUpon>
     </Compile>
     <Compile Include="VHauptmenue.cs">
       <SubType>Form</SubType>
@@ -99,8 +99,8 @@
     <EmbeddedResource Include="VEditorXML.resx">
       <DependentUpon>VEditorXML.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VKarteikarten.resx">
-      <DependentUpon>VKarteikarten.cs</DependentUpon>
+    <EmbeddedResource Include="VKarteikarte.resx">
+      <DependentUpon>VKarteikarte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VHauptmenue.resx">
       <DependentUpon>VHauptmenue.cs</DependentUpon>
@@ -108,6 +108,7 @@
     <EmbeddedResource Include="VLogin.resx">
       <DependentUpon>VLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

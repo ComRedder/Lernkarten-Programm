@@ -140,7 +140,7 @@ namespace Lernkartentrainer
             {
                 buttonF5Start.Enabled = false;
             }
-            VKarteikarten openForm = new VKarteikarten();
+            VKarteikarte openForm = new VKarteikarte();
             openForm.Show();
         }
 
@@ -158,7 +158,7 @@ namespace Lernkartentrainer
                 buttonF4Start.Enabled = false;
             }
 
-            VKarteikarten openForm = new VKarteikarten();
+            VKarteikarte openForm = new VKarteikarte();
             openForm.Show();
         }
 
@@ -176,7 +176,7 @@ namespace Lernkartentrainer
                 buttonF3Start.Enabled = false;
             }
 
-            VKarteikarten openForm = new VKarteikarten();
+            VKarteikarte openForm = new VKarteikarte();
             openForm.Show();
         }
 
@@ -194,13 +194,13 @@ namespace Lernkartentrainer
                 buttonF2Start.Enabled = false;
             }
 
-            VKarteikarten openForm = new VKarteikarten();
+            VKarteikarte openForm = new VKarteikarte();
             openForm.Show();
         }
 
         private void buttonF1Start_Click(object sender, EventArgs e)
         {
-            VKarteikarten openForm = new VKarteikarten();
+            VKarteikarte openForm = new VKarteikarte();
             openForm.Show();
         }
 

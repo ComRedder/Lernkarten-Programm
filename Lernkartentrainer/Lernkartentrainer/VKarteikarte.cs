@@ -10,11 +10,10 @@ using System.Windows.Forms;
 
 namespace Lernkartentrainer
 {
-    public partial class VKarteikarten : Form
+    public partial class VKarteikarte : Form
     {
         bool approved;
-
-        public VKarteikarten()
+        public VKarteikarte()
         {
             InitializeComponent();
             buttonNext.Enabled = false;
@@ -45,7 +44,7 @@ namespace Lernkartentrainer
 
         private void buttonNext_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void buttonClose_Click(object sender, EventArgs e)
